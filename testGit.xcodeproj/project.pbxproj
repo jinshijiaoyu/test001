@@ -17,6 +17,7 @@
 		556DA2AA224F4FBE00A577A0 /* testGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 556DA2A9224F4FBE00A577A0 /* testGitUITests.m */; };
 		9913C6262250A156005E42D0 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9913C6252250A156005E42D0 /* MessageViewController.m */; };
 		9913C6292250A6F6005E42D0 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9913C6282250A6F6005E42D0 /* PersonalViewController.m */; };
+		9913C62C2250AA0F005E42D0 /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9913C62B2250AA0F005E42D0 /* LaunchScreen.png */; };
 		99448E77224F66DA000E1FEC /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99448E76224F66DA000E1FEC /* SetViewController.m */; };
 		A6F1053D2990087A5C7A5FDB /* libPods-testGit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E928F3FA372C93A98E4DEECA /* libPods-testGit.a */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		9913C6252250A156005E42D0 /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 		9913C6272250A6F6005E42D0 /* PersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
 		9913C6282250A6F6005E42D0 /* PersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		9913C62B2250AA0F005E42D0 /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen.png; sourceTree = "<group>"; };
 		99448E75224F66DA000E1FEC /* SetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
 		99448E76224F66DA000E1FEC /* SetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
 		B52D132C07BBDCE936346826 /* Pods-testGit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testGit.release.xcconfig"; path = "Pods/Target Support Files/Pods-testGit/Pods-testGit.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		556DA284224F4FB600A577A0 /* testGit */ = {
 			isa = PBXGroup;
 			children = (
+				9913C62A2250A9CD005E42D0 /* Images */,
 				99448E74224F6676000E1FEC /* smallMac */,
 				556DA285224F4FB600A577A0 /* AppDelegate.h */,
 				556DA286224F4FB600A577A0 /* AppDelegate.m */,
@@ -159,6 +162,14 @@
 				556DA2AB224F4FBE00A577A0 /* Info.plist */,
 			);
 			path = testGitUITests;
+			sourceTree = "<group>";
+		};
+		9913C62A2250A9CD005E42D0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9913C62B2250AA0F005E42D0 /* LaunchScreen.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		99448E74224F6676000E1FEC /* smallMac */ = {
@@ -285,6 +296,7 @@
 			files = (
 				556DA292224F4FBE00A577A0 /* LaunchScreen.storyboard in Resources */,
 				556DA28F224F4FBE00A577A0 /* Assets.xcassets in Resources */,
+				9913C62C2250AA0F005E42D0 /* LaunchScreen.png in Resources */,
 				556DA28D224F4FB600A577A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
