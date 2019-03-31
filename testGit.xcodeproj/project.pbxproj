@@ -15,6 +15,9 @@
 		556DA295224F4FBE00A577A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 556DA294224F4FBE00A577A0 /* main.m */; };
 		556DA29F224F4FBE00A577A0 /* testGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 556DA29E224F4FBE00A577A0 /* testGitTests.m */; };
 		556DA2AA224F4FBE00A577A0 /* testGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 556DA2A9224F4FBE00A577A0 /* testGitUITests.m */; };
+		9913C6262250A156005E42D0 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9913C6252250A156005E42D0 /* MessageViewController.m */; };
+		9913C6292250A6F6005E42D0 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9913C6282250A6F6005E42D0 /* PersonalViewController.m */; };
+		99448E77224F66DA000E1FEC /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99448E76224F66DA000E1FEC /* SetViewController.m */; };
 		A6F1053D2990087A5C7A5FDB /* libPods-testGit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E928F3FA372C93A98E4DEECA /* libPods-testGit.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +55,12 @@
 		556DA2A5224F4FBE00A577A0 /* testGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		556DA2A9224F4FBE00A577A0 /* testGitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testGitUITests.m; sourceTree = "<group>"; };
 		556DA2AB224F4FBE00A577A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9913C6242250A156005E42D0 /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		9913C6252250A156005E42D0 /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		9913C6272250A6F6005E42D0 /* PersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		9913C6282250A6F6005E42D0 /* PersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		99448E75224F66DA000E1FEC /* SetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		99448E76224F66DA000E1FEC /* SetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
 		B52D132C07BBDCE936346826 /* Pods-testGit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testGit.release.xcconfig"; path = "Pods/Target Support Files/Pods-testGit/Pods-testGit.release.xcconfig"; sourceTree = "<group>"; };
 		E928F3FA372C93A98E4DEECA /* libPods-testGit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testGit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FBECCA7B96B00457C58902 /* Pods-testGit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testGit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testGit/Pods-testGit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +125,7 @@
 		556DA284224F4FB600A577A0 /* testGit */ = {
 			isa = PBXGroup;
 			children = (
+				99448E74224F6676000E1FEC /* smallMac */,
 				556DA285224F4FB600A577A0 /* AppDelegate.h */,
 				556DA286224F4FB600A577A0 /* AppDelegate.m */,
 				556DA288224F4FB600A577A0 /* ViewController.h */,
@@ -125,6 +135,10 @@
 				556DA290224F4FBE00A577A0 /* LaunchScreen.storyboard */,
 				556DA293224F4FBE00A577A0 /* Info.plist */,
 				556DA294224F4FBE00A577A0 /* main.m */,
+				9913C6242250A156005E42D0 /* MessageViewController.h */,
+				9913C6252250A156005E42D0 /* MessageViewController.m */,
+				9913C6272250A6F6005E42D0 /* PersonalViewController.h */,
+				9913C6282250A6F6005E42D0 /* PersonalViewController.m */,
 			);
 			path = testGit;
 			sourceTree = "<group>";
@@ -145,6 +159,15 @@
 				556DA2AB224F4FBE00A577A0 /* Info.plist */,
 			);
 			path = testGitUITests;
+			sourceTree = "<group>";
+		};
+		99448E74224F6676000E1FEC /* smallMac */ = {
+			isa = PBXGroup;
+			children = (
+				99448E75224F66DA000E1FEC /* SetViewController.h */,
+				99448E76224F66DA000E1FEC /* SetViewController.m */,
+			);
+			path = smallMac;
 			sourceTree = "<group>";
 		};
 		D9683B4DE6D007D78C4E499B /* Pods */ = {
@@ -308,7 +331,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9913C6292250A6F6005E42D0 /* PersonalViewController.m in Sources */,
 				556DA28A224F4FB600A577A0 /* ViewController.m in Sources */,
+				9913C6262250A156005E42D0 /* MessageViewController.m in Sources */,
+				99448E77224F66DA000E1FEC /* SetViewController.m in Sources */,
 				556DA295224F4FBE00A577A0 /* main.m in Sources */,
 				556DA287224F4FB600A577A0 /* AppDelegate.m in Sources */,
 			);
@@ -486,7 +512,10 @@
 				DEVELOPMENT_TEAM = 5HF3A599D9;
 				INFOPLIST_FILE = testGit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = kongxianggang.testGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -502,7 +531,10 @@
 				DEVELOPMENT_TEAM = 5HF3A599D9;
 				INFOPLIST_FILE = testGit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = kongxianggang.testGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,7 +548,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HF3A599D9;
 				INFOPLIST_FILE = testGitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = kongxianggang.testGitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -531,7 +567,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HF3A599D9;
 				INFOPLIST_FILE = testGitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = kongxianggang.testGitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -545,7 +585,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HF3A599D9;
 				INFOPLIST_FILE = testGitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = kongxianggang.testGitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -559,7 +603,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HF3A599D9;
 				INFOPLIST_FILE = testGitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = kongxianggang.testGitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
