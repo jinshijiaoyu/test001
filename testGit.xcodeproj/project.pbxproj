@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		552030342250AE7D0042A1FA /* MovieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 552030332250AE7D0042A1FA /* MovieTableViewController.m */; };
+		552030382250B2CF0042A1FA /* LoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 552030372250B2CF0042A1FA /* LoginTableViewController.m */; };
 		556DA287224F4FB600A577A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 556DA286224F4FB600A577A0 /* AppDelegate.m */; };
 		556DA28A224F4FB600A577A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556DA289224F4FB600A577A0 /* ViewController.m */; };
 		556DA28D224F4FB600A577A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556DA28B224F4FB600A577A0 /* Main.storyboard */; };
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		552030322250AE7D0042A1FA /* MovieTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieTableViewController.h; sourceTree = "<group>"; };
 		552030332250AE7D0042A1FA /* MovieTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieTableViewController.m; sourceTree = "<group>"; };
+		552030362250B2CF0042A1FA /* LoginTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginTableViewController.h; sourceTree = "<group>"; };
+		552030372250B2CF0042A1FA /* LoginTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginTableViewController.m; sourceTree = "<group>"; };
 		556DA282224F4FB600A577A0 /* testGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		556DA285224F4FB600A577A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		556DA286224F4FB600A577A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -114,6 +117,15 @@
 			path = bigMac;
 			sourceTree = "<group>";
 		};
+		552030352250B2970042A1FA /* bigMacCodeBranch */ = {
+			isa = PBXGroup;
+			children = (
+				552030362250B2CF0042A1FA /* LoginTableViewController.h */,
+				552030372250B2CF0042A1FA /* LoginTableViewController.m */,
+			);
+			path = bigMacCodeBranch;
+			sourceTree = "<group>";
+		};
 		556DA279224F4FB600A577A0 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +151,7 @@
 		556DA284224F4FB600A577A0 /* testGit */ = {
 			isa = PBXGroup;
 			children = (
+				552030352250B2970042A1FA /* bigMacCodeBranch */,
 				552030312250AE4E0042A1FA /* bigMac */,
 				9913C62A2250A9CD005E42D0 /* Images */,
 				99448E74224F6676000E1FEC /* smallMac */,
@@ -361,6 +374,7 @@
 				9913C6262250A156005E42D0 /* MessageViewController.m in Sources */,
 				552030342250AE7D0042A1FA /* MovieTableViewController.m in Sources */,
 				99448E77224F66DA000E1FEC /* SetViewController.m in Sources */,
+				552030382250B2CF0042A1FA /* LoginTableViewController.m in Sources */,
 				556DA295224F4FBE00A577A0 /* main.m in Sources */,
 				556DA287224F4FB600A577A0 /* AppDelegate.m in Sources */,
 			);
